@@ -1,0 +1,28 @@
+Arguments: 
+  /usr/local/Cellar/node/7.4.0/bin/node /usr/local/bin/yarn add react-native --exact
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/zhouhao/phabricator/arcanist/bin/
+
+Yarn version: 
+  0.19.1
+
+Node version: 
+  7.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {"name":"FirstRN","version":"0.0.1","private":true,"scripts":{"start":"node node_modules/react-native/local-cli/cli.js start"}}
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: read ETIMEDOUT
+      at exports._errnoException (util.js:1022:11)
+      at TLSWrap.onread (net.js:572:26)
